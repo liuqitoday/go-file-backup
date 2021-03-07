@@ -1,9 +1,9 @@
 package service
 
 import (
-	"file-sync/config"
 	"github.com/cheggaaa/pb/v3"
 	"github.com/studio-b12/gowebdav"
+	"go-file-buckup/config"
 	"io/ioutil"
 	"sync"
 )

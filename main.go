@@ -1,10 +1,10 @@
 package main
 
 import (
-	"file-sync/config"
-	"file-sync/service"
-	"file-sync/util"
 	"github.com/urfave/cli/v2"
+	"go-file-buckup/config"
+	"go-file-buckup/service"
+	"go-file-buckup/util"
 	"log"
 	"os"
 )
@@ -58,7 +58,7 @@ func main() {
 			service.UploadAllFiles(filePaths)
 			return nil
 		},
-		Name:  "file sync",
+		Name:  "file backup",
 		Usage: "file backup",
 	}
 	err := app.Run(os.Args)

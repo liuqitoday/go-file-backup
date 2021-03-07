@@ -1,4 +1,4 @@
-module file-sync
+module go-file-buckup
 
 go 1.16
 
