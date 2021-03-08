@@ -1,7 +1,7 @@
 ### 使用webdav备份指定目录下所有文件
 
 ```
-go run main.go -backupFilePath="~/n1-sync" -webdavParentFilePath="/n1-sync" -webdavUrl="https://dav.jianguoyun.com/dav/" -webdavUsername="username" -webdavPassword="password"
+./go-file-backup -backupFilePath="~/n1-sync" -webdavParentFilePath="/n1-sync" -webdavUrl="https://dav.jianguoyun.com/dav/" -webdavUsername="username" -webdavPassword="password"
 ```
 
 ### 参数说明
